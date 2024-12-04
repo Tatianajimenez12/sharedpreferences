@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString(KEY_NOMBRE, nombre);
         editor.apply();
 
-        // Guardar todos los datos con FileOutputStream
+        // Guardar todos los datos con FileOutputStreams
         String datos = "Nombre: " + nombre + "\nCorreo: " + correo + "\nMensaje: " + mensaje;
         try (FileOutputStream fos = openFileOutput(FILE_NAME, MODE_PRIVATE)) {
             fos.write(datos.getBytes());
