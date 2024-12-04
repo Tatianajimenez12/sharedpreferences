@@ -6,6 +6,18 @@
     android:background="@color/color_fondo">
 
     <TextView
+        android:id="@+id/titulo_bienvenido"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:text="Bienvenido, estos son tus datos ingresados:"
+        android:textColor="@color/blanco"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:padding="10dp" />
+
+    <TextView
         android:id="@+id/texto_datos"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
