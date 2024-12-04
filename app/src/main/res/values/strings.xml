@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">sharedprefsfileexample</string>
+    <string name="titulo">Registro de Datos</string>
+    <string name="nombre">Nombre</string>
+    <string name="campo_correo">Edad</string>
+    <string name="boton_guardar">Guardar</string>
+    <string name="boton_cargar">Cargar</string>
+</resources>

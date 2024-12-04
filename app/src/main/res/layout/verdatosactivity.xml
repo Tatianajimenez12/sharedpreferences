@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_fondo">
+
+    <TextView
+        android:id="@+id/texto_datos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/perfil"
+        android:padding="40dp"
+        android:text="Aquí se mostrarán los datos guardados"
+        android:textColor="@color/blanco"
+        android:textSize="18sp"
+        tools:ignore="HardcodedText,TextContrastCheck" />
+</RelativeLayout>
