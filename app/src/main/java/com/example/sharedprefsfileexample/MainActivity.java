@@ -44,9 +44,15 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void guardarDatos() {
-        String nombre = campoNombre.getText().toString();
-        String correo = campoCorreo.getText().toString();
-        String mensaje = campoMensaje.getText().toString();
+        String nombre = campoNombre.getText().toString().trim();
+        String correo = campoCorreo.getText().toString().trim();
+        String mensaje = campoMensaje.getText().toString().trim();
+
+        // Validar que los campos no estén vacíos
+        if (nombre.isEmpty() || correo.isEmpty() || mensaje.isEmpty()) {
+            Toast.makeText(this, "Por favor, completa todos los campos antes de guardar.", Toast.LENGTH_SHORT).show();
+            return; // Detener la ejecución si algún campo está vacío
+        }
 
         // Guardar nombre con SharedPreferences
         SharedPreferences.Editor editor = sharedPreferences.edit();
