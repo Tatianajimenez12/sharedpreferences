@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<data-extraction-rules xmlns:android="http://schemas.android.com/apk/res/android">
+<data-extraction-rules>
     <cloud-backup>
         <!-- Controla qué datos se incluirán o excluirán del respaldo en la nube -->
         <!-- Ejemplo:
