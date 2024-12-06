@@ -84,7 +84,7 @@ public class MainActivity extends AppCompatActivity {
             while ((character = fis.read()) != -1) {
                 datosArchivo.append((char) character);
             }
-            Toast.makeText(this, "Datos cargados correctamente", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Felicidades! Datos cargados correctamente", Toast.LENGTH_SHORT).show();
         } catch (IOException e) {
             e.printStackTrace();
             Toast.makeText(this, "Error al cargar los datos", Toast.LENGTH_SHORT).show();
