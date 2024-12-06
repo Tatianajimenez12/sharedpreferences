@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
             startActivity(intent);
         } catch (IOException e) {
             e.printStackTrace();
-            Toast.makeText(this, "Error al guardar los datos", Toast.LENGTH_SHORT).show();
+            Toast.makeText(this, "Error al guardar los datos, intentelo mas tarde", Toast.LENGTH_SHORT).show();
         }
     }
 
